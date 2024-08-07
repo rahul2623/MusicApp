@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    tools:context=".MainActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/songs_text"
+          android:textColor="@color/ic_launcher_background"
+          android:text="SONGS"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:padding="10dp"
+          android:layout_centerHorizontal="true"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/no_songs_text"
+          android:text="NO SONGS FOUND"
+          android:layout_centerInParent="true"
+          android:visibility="gone"/>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/recycler_view"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/songs_text" />
+
+   </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
