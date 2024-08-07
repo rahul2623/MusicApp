@@ -2,6 +2,7 @@ package com.example.music;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
@@ -27,7 +28,8 @@ public class MusicPlayerActivity extends AppCompatActivity {
     AudioModel currentSong;
     MediaPlayer mediaPlayer = MyMediaPlayer.getInstance();
     int x = 0;
-
+    ImageView back;
+    ImageView icon;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +43,12 @@ public class MusicPlayerActivity extends AppCompatActivity {
         nextBtn = findViewById(R.id.next);
         previousBtn = findViewById(R.id.previous);
         musicIcon = findViewById(R.id.music_icon_big);
-
+        back=findViewById(R.id.back_icon);
+        back.setOnClickListener(view -> {
+            Intent i = new Intent(MusicPlayerActivity.this, MainActivity.class);
+            startActivity(i);
+            finish();
+        });
         titleTv.setSelected(true);
 
         songsList = (ArrayList<AudioModel>) getIntent().getSerializableExtra("LIST");

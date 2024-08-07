@@ -15,7 +15,7 @@ The Offline Music Player App is an Android application developed in Java using A
 Features
 
     Play music from your device's storage
-    Supports various audio formats (MP3, WAV, etc.)
+    Supports various audio formats mp3
     Seek bar for navigation within tracks
     User-friendly interface
 

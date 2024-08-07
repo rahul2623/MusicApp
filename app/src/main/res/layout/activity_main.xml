@@ -9,8 +9,10 @@
     app:cardCornerRadius="8dp"
     app:cardElevation="4dp"
     tools:context=".MainActivity">
+<include layout="@layout/toolbar"/>
 
    <RelativeLayout
+       android:layout_marginTop="45dp"
        android:layout_width="match_parent"
        android:layout_height="match_parent">
 
