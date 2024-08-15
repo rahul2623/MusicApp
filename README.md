@@ -53,11 +53,8 @@ Usage
     Play music: Tap on a song to start playing. Use the controls to play, pause, skip.
 
 Screenshots
-![WhatsApp Image 2024-08-07 at 15 27 47_89ea3157](https://github.com/user-attachments/assets/cee7969c-3247-403a-a818-fe75ace37df7)
-![WhatsApp Image 2024-08-07 at 15 27 47_e6963cd1](https://github.com/user-attachments/assets/e1abc6e3-fc11-4022-bcb9-6a9040c73854)
-
-
-
+![i2](https://github.com/user-attachments/assets/d0655860-b443-497b-949c-12b2c0a0f236)
+![i1](https://github.com/user-attachments/assets/0d1ec829-f3c9-4ec2-a90e-d536a181be5d)
 
 Contributing
 
